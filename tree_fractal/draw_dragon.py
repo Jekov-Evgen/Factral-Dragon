@@ -1,6 +1,11 @@
 from turtle import *
 
+
+
 def dragon_curve(order, length, sign=1):
+    screen = Screen()
+    screen.screensize(800, 800)
+    
     if order == 0:
         forward(length)
     else:
